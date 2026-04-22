@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+to update github pages: docs is how github runs the static version
+when ready to update
+1. run: 
+npm run build
+
+2. run:
+rm -rf docs/*
+cp -r out/* docs/
+
+3. run:
+git add docs
+git commit -m "update site"
+git push origin main
+
 ## Getting Started
 
 First, run the development server:

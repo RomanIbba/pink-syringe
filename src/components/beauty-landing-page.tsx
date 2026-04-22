@@ -325,7 +325,7 @@ export default function BeautyLandingPage() {
             className="relative"
           >
             <div className="absolute inset-0 -z-10 translate-x-8 translate-y-8 rounded-[2.5rem] bg-[#e7bfd0]/35 blur-3xl" />
-            <div className="overflow-hidden rounded-[2.5rem] border border-white/70 bg-white/78 p-6 shadow-[0_30px_90px_rgba(31,23,22,0.1)] backdrop-blur-xl">
+            {/* <div className="overflow-hidden rounded-[2.5rem] border border-white/70 bg-white/78 p-6 shadow-[0_30px_90px_rgba(31,23,22,0.1)] backdrop-blur-xl">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#8e8688]">
@@ -414,10 +414,16 @@ export default function BeautyLandingPage() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
+            
+          <img 
+            src={headshot.src} 
+            alt="Provider Headshot" 
+            className="rounded-lg w-full h-auto object-cover" 
+          />
           </motion.div>
         </div>
-      </section>
+      </section> 
 
       <section className="mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-16">
         <div className="grid gap-4 rounded-[2rem] border border-white/70 bg-white/86 p-4 shadow-[0_20px_60px_rgba(31,23,22,0.06)] backdrop-blur sm:grid-cols-3 sm:p-6">
@@ -471,12 +477,6 @@ export default function BeautyLandingPage() {
               ))}
             </div>
           </div>
-
-          <img 
-            src={headshot.src} 
-            alt="Provider Headshot" 
-            className="rounded-lg w-full h-auto object-cover" 
-          />
 
           <div className="grid gap-4 sm:grid-cols-2">
             <Card className="border-white/70 bg-white/86 shadow-[0_16px_40px_rgba(31,23,22,0.05)]">
