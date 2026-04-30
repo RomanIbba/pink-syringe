@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,22423,t=>{t.q("/pink-syringe/_next/static/media/headshot.0j5qs98izdb~q.png")}]);
