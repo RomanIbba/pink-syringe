@@ -3,6 +3,20 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 to update github pages: docs is how github runs the static version
 when ready to update
+in powershell:
+2. run:
+npm run build
+
+if (!(Test-Path docs)) { New-Item -ItemType Directory -Path docs }
+Remove-Item -Recurse -Force docs\* -ErrorAction SilentlyContinue
+Copy-Item -Recurse out\* docs\
+New-Item -ItemType File -Path docs\.nojekyll -Force
+git add docs
+git commit -m "redeploy site"
+git push origin main
+
+
+in bash: (havent tested)
 1. run: 
 npm run build
 
@@ -11,9 +25,11 @@ rm -rf docs/*
 cp -r out/* docs/
 
 3. run:
-git add docs
-git commit -m "update site"
+git add .
+git commit -m "Comment"
 git push origin main
+
+
 
 ## Getting Started
 

@@ -1,2 +1,2 @@
-:HL["/pink-syringe/_next/static/chunks/09r_-5k7wk2g0.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"dw7g2OGHvVeV2fWXYZ7Ej"}
+:HL["/pink-syringe/_next/static/chunks/13qoowy9i7~mu.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"dhLOD624tDGN7k27dSoLC"}

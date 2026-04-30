@@ -130,14 +130,14 @@
     min-height: 100%;
     @apply bg-background text-foreground antialiased;
     background-image:
-      radial-gradient(circle at top left, rgba(243, 235, 239, 0.8), transparent 28%),
-      radial-gradient(circle at top right, rgba(236, 227, 230, 0.55), transparent 24%),
-      linear-gradient(180deg, #fdfdfd 0%, #fbfaf9 55%, #f8f7f6 100%);
+      radial-gradient(circle at top left, rgba(248, 232, 239, 0.34), transparent 28%),
+      radial-gradient(circle at top right, rgba(246, 228, 236, 0.22), transparent 24%),
+      linear-gradient(180deg, #ffffff 0%, #fdfcfd 55%, #fbfafb 100%);
     background-attachment: fixed;
   }
 
   ::selection {
-    background: rgba(190, 168, 177, 0.28);
+    background: rgba(211, 183, 193, 0.16);
     color: #201715;
   }
 }
